@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SERVICE</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="link-header">HOME</a>
+    <a href="about.html" class="link-header">ABOUT</a>
+    <a href="product.html" class="link-header">PRODUCT</a>
+    <a href="service.html" class="link-header">SERVICE</a>
+    <a href="#contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header" onclick="abrirModalLogin()">LOG IN</button>
+  </header>
+  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
+  enctype="multipart/form-data">
+  <span class="fechar-contato" onclick="esconderForm()">×</span>
+  <label>Name:<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
+  <label>Phone:<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
+  <label>City:<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
+  <label>Neighborhood:<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
+  <label>Address:<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
+  <label>House Number:<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
+  <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
+  <button type="submit">Request a Quote</button>
+</form>
+
+  <main> 
+    <img src="./img/banho.jpg" alt="Banho e tosa" class="logo-image"/>
+    <section>
+      <h1>Our Services</h1>
+      <p>
+        Complete service for your pet's well-being. Check out our main services:
+      </p>        
+        <h3>Bath and Grooming</h3>
+        <p>Hygiene and care with all affection, for all breeds.</p>
+      </section>
+      </main>
+      <main> 
+        <img src="./img/consulta.jpg" alt="Consulta veterinária" class="logo-image"/>
+      <section>      
+        <h3>Veterinary Consultation</h3>
+        <p>Qualified professionals ready to take care of your pet's health.</p>
+ 
+      </section>
+      <main> 
+        <img src="./img/hotel.jpg" alt="Hotel para pets" class="logo-image"/>
+        <section>     
+        <h3>Hotelzinho Pet</h3>
+        <p>Safe and comfortable accommodation while you travel with peace of mind.</p>    
+    </section>
+    </main>
+    <a target="_blank" href="https://wa.me/+551599682022" class="link-whatsapp">
+      <img src="./img/whatsapp.png" alt="link para o whatsapp" />
+    </a>
+  <script src="scripts.js"></script>
+  <footer>
+    <p>Contact: (15) 99682-2022 | petshopfeliz@email.com</p>
+  </footer>
+</body>
+
+</html>

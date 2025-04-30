@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABOUT</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="link-header">HOME</a>
+    <a href="about.html" class="link-header">ABOUT</a>
+    <a href="product.html" class="link-header">PRODUCT</a>
+    <a href="service.html" class="link-header">SERVICE</a>
+    <a href="#contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header" onclick="abrirModalLogin()">LOG IN</button>
+  </header>
+  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
+  enctype="multipart/form-data">
+  <span class="fechar-contato" onclick="esconderForm()">×</span>
+  <label>Name:<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
+  <label>Phone:<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
+  <label>City:<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
+  <label>Neighborhood:<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
+  <label>Address:<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
+  <label>House Number:<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
+  <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
+  <button type="submit">Request a Quote</button>
+</form>
+
+  <main>
+    <img class="logo-image"  src="./img/equipecuidandodepet.avif" alt="Equipe cuidando de pets" class="about-image" />
+    <section>
+      <h1>THE ROLE OF PETS </h1>
+        <h2>in People's Lives</h2>
+        <p>
+          We are a team passionate about animals. Our goal is to offer the best service, with love, affection and respect. With over 5 years in the market, we take care of the health, hygiene and well-being of your best friend.     
+          We have qualified professionals, veterinary care, bathing and grooming, and a variety of products
+for all breeds and sizes.
+        </p>
+    </section>
+  </main>
+  <a target="_blank" href="https://wa.me/+551599682022" class="link-whatsapp">
+    <img src="./img/whatsapp.png" alt="link para o whatsapp" />
+  </a>
+  <script src="scripts.js"></script>
+
+  <footer>
+    <p>Contact: (15) 99682-2022 | petshopfeliz@email.com</p>
+  </footer>
+
+
+</body>
+
+</html>

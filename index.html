@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOME</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="link-header">HOME</a>
+    <a href="about.html" class="link-header">ABOUT</a>
+    <a href="product.html" class="link-header">PRODUCT</a>
+    <a href="service.html" class="link-header">SERVICE</a>
+    <a href="#contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header" onclick="abrirModalLogin()">LOG IN</button>
+  </header>
+  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
+    enctype="multipart/form-data">
+    <span class="fechar-contato" onclick="esconderForm()">×</span>
+    <label>Name:<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
+    <label>Phone:<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
+    <label>City:<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
+    <label>Neighborhood:<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
+    <label>Address:<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
+    <label>House Number:<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
+    <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
+    <button type="submit">Request a Quote</button>
+  </form>
+
+  <main>
+    <img src="./img/logo.png" alt="Logo Nós nos importamos" class="logo-image" />
+    <section>
+      <h1>WE CARE</h1>
+      <h2>About Your Pet</h2>
+      <p>
+        Pets, such as dogs, cats, birds and even small rodents, are part of the lives of millions of people around the world. Much more than just companion animals, they are considered members of the family. In addition to offering unconditional love, pets also help with the physical and emotional health of their owners.
+      </p>
+      <a href="#explore"><button class="button-main">Explore</button></a>
+    </section>
+  </main>
+
+  <div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fOCjhBrnKgM?si=oa3GH9zoRh3KBAwl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/n0DPjDAn8es?si=LoAukQDV1OKNcbqX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wUpO8XJDp3c?si=fDGr-eVPEkPFp5Ip" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PJGeWoZrYGc?si=zsSk-xiKRPxFuLMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sOgMwU8aBzM?si=yWt0LJix-O06FhH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HramisXvVlA?si=YvKWnhBg_q-Zd29V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2ilMVinWhdw?si=_3AGr_tCISfedpsN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/j9fTwGHPZPM?si=5mrHATMulSQyp5pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Y_yy8ACm5VA?si=2yZf8HsYFLhQMoBF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+
+  <a target="_blank" href="https://wa.me/+551599682022" class="link-whatsapp">
+    <img src="./img/whatsapp.png" alt="link para o whatsapp" />
+  </a>
+  <script src="scripts.js"></script>
+
+  <footer id="explore">
+    <p>Contact: (15) 99682-2022 | petshopfeliz@email.com</p>
+  </footer>
+</body>
+
+</html>
