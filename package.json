@@ -1,0 +1,31 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+"scripts": {
+  "dev": "nodemon server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsandroaparecidodeoliveira/petshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsandroaparecidodeoliveira/petshop/issues"
+  },
+  "homepage": "https://github.com/alexsandroaparecidodeoliveira/petshop#readme",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "prisma": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
