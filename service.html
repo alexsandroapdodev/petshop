@@ -10,62 +10,80 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet" />
+  <script type="module" src="authGuard.js"></script>
 </head>
 
 <body>
   <header>
-    <a href="index.html" class="link-header">HOME</a>
+    <a href="home.html" class="link-header">HOME</a>
     <a href="about.html" class="link-header">ABOUT</a>
     <a href="product.html" class="link-header">PRODUCT</a>
     <a href="service.html" class="link-header">SERVICE</a>
-    <a href="#contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
-    <button class="button-header"><a href="./login.html">LOG IN</button></a>
+    <a href="contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header-logout" onclick="logout()">LOG OUT</button>
   </header>
-  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
-  enctype="multipart/form-data">
-  <span class="fechar-contato" onclick="esconderForm()">×</span>
-  <label>Name:<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
-  <label>Phone:<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
-  <label>City:<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
-  <label>Neighborhood:<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
-  <label>Address:<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
-  <label>House Number:<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
-  <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
-  <button type="submit">Request a Quote</button>
-</form>
 
-  <main> 
-    <img src="./img/banho.jpg" alt="Banho e tosa" class="logo-image"/>
+  <main>
+    <img src="./img/bath.jpg" alt="bath" class="soon-we-care" />
     <section>
-      <h1>Our Services</h1>
+      <h1>Cat Bath</h1>
       <p>
-        Complete service for your pet's well-being. Check out our main services:
-      </p>        
-        <h3>Bath and Grooming</h3>
-        <p>Hygiene and care with all affection, for all breeds.</p>
-      </section>
-      </main>
-      <main> 
-        <img src="./img/consulta.jpg" alt="Consulta veterinária" class="logo-image"/>
-      <section>      
-        <h3>Veterinary Consultation</h3>
-        <p>Qualified professionals ready to take care of your pet's health.</p>
- 
-      </section>
-      <main> 
-        <img src="./img/hotel.jpg" alt="Hotel para pets" class="logo-image"/>
-        <section>     
-        <h3>Hotelzinho Pet</h3>
-        <p>Safe and comfortable accommodation while you travel with peace of mind.</p>    
+        
+Cats are known for their natural hygiene, but in some situations bathing and grooming become necessary to ensure the animal's well-being and health.
+      </p>
+      <h3>Bath and Grooming</h3>
+      <p>Hygiene and care with all affection, for all breeds. Especially in cases of long fur, excess loose hair, oiliness, allergies or difficulty in cleaning, a professional bath can make all the difference.</p>
     </section>
+  </main>
+  <main>
+    <img src="./img/consultation.jpg" alt="consultation" class="soon-we-care" />
+    <section>
+      <h1>Veterinary Full</h1>
+      <p>Qualified professionals ready to take care of your pet's health. 
+        Taking care of your pet's health is a daily commitment — and it starts with a simple visit to the vet.</p>
+      <h3>Consultation</h3>
+      <p>
+        Regular checkups help prevent diseases, detect problems early and increase the quality and life expectancy of pets. It is essential to prevent diseases, treat illnesses and guide guardians in the best possible way.</p>
+    </section>
+    <main>
+      <img src="./img/hotel.jpg" alt="Hotel" class="soon-we-care" />
+      <section>
+        <h1>Will Travel</h1>
+        <p>And can't take your pet? Pet boarding is the ideal solution to ensure your pet is well cared for, safe and happy while you're away.</p>
+        <h3>Far from Home</h3>
+        <p>Leaving your pet at a boarding facility is more than a necessity — it’s a responsible and loving way to ensure their well-being when you can’t be around.</p>
+      </section>
     </main>
-    <a target="_blank" href="https://wa.me/+551599682022" class="link-whatsapp">
+    <main>
+      <img src="./img/cas.jpg" alt="castration" class="soon-we-care" />
+      <section>
+        <h1>Castration Is</h1>
+        <p>
+          Castration is one of the most common and important surgeries in veterinary routine.</p>
+        <h3>In males</h3>
+        <p>Spaying helps reduce behaviors such as marking territory, aggression and running away. In females, it prevents uterine infections (pyometra) and mammary tumors, in addition to avoiding unwanted pregnancies.</p>
+      </section>
+    </main>
+    <main>
+      <img src="./img/ades.jpg" alt="Hotel" class="soon-we-care" />
+      <section>
+        <h1>Cat Training</h1>
+        <p>With patience, technique and positive reinforcement, it is possible to teach your feline to respect limits, use the scratching post correctly, respond to simple commands and even correct unwanted behaviors.</p>
+        <h3>The secret is</h3>
+        <p>Respecting the cat's time, using rewards (such as treats or affection) and avoiding punishment. The process is calm, gradual and can be done at home with the guidance of a professional.</p>
+      </section>
+    </main>
+
+    <a target="_blank" href="https://wa.me/+5515996822022" class="link-whatsapp">
       <img src="./img/whatsapp.png" alt="link para o whatsapp" />
     </a>
-  <script src="scripts.js"></script>
-  <footer>
-    <p>Contact: (15) 99682-2022 | petshopfeliz@email.com</p>
-  </footer>
+
+    <script type="module" src="./scripts.js"></script>
+
+    <footer>
+      <p>© 2025 Your Company. All rights reserved.</p>
+    </footer>
+
 </body>
 
 </html>

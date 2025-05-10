@@ -10,51 +10,90 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet" />
+  <script type="module" src="authGuard.js"></script>
 </head>
 
 <body>
   <header>
-    <a href="index.html" class="link-header">HOME</a>
+    <a href="home.html" class="link-header">HOME</a>
     <a href="about.html" class="link-header">ABOUT</a>
     <a href="product.html" class="link-header">PRODUCT</a>
     <a href="service.html" class="link-header">SERVICE</a>
-    <a href="#contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
-    <button class="button-header"><a href="./login.html">LOG IN</button></a>
+    <a href="contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header-logout" onclick="logout()">LOG OUT</button>
   </header>
-  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
-  enctype="multipart/form-data">
-  <span class="fechar-contato" onclick="esconderForm()">×</span>
-  <label>Name:<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
-  <label>Phone:<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
-  <label>City:<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
-  <label>Neighborhood:<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
-  <label>Address:<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
-  <label>House Number:<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
-  <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
-  <button type="submit">Request a Quote</button>
-</form>
 
   <main>
-    <img class="logo-image"  src="./img/equipecuidandodepet.avif" alt="Equipe cuidando de pets" class="about-image" />
+    <img class="soon-we-care" src="./img/team.jpg" alt="team of pets" />
     <section>
       <h1>THE ROLE OF PETS </h1>
-        <h2>in People's Lives</h2>
-        <p>
-          We are a team passionate about animals. Our goal is to offer the best service, with love, affection and respect. With over 5 years in the market, we take care of the health, hygiene and well-being of your best friend.     
-          We have qualified professionals, veterinary care, bathing and grooming, and a variety of products
-for all breeds and sizes.
-        </p>
+      <h2>in People's Lives</h2>
+      <p>
+        We are a team passionate about animals. Our goal is to offer the best service, with love, affection and respect.
+        With over 5 years in the market, we take care of the health, hygiene and well-being of your best friend.
+        We have qualified professionals, veterinary care, bathing and grooming, and a variety of products
+        for all breeds and sizes.
+      </p>
     </section>
   </main>
-  <a target="_blank" href="https://wa.me/+551599682022" class="link-whatsapp">
+
+  <main>
+    <img class="soon-we-care" src="./img/dog.jpg" alt="dog" />
+    <section>
+      <h1>COMMON SERVICES</h1>
+      <h2>is bathing and grooming</h2>
+      <p>
+        which keeps pets clean, smelling nice and their fur well-groomed. In addition, many pet shops offer veterinary
+        services, where animals can be vaccinated, examined and treated by specialized professionals.
+        Grooming helps keep the coat looking beautiful and prevents knots that can cause discomfort and even skin problems. Bathing eliminates dirt, odors and residues that accumulate on a daily basis.
+      </p>
+    </section>
+  </main>
+
+  <main>
+    <img class="soon-we-care" src="./img/cat.jpg" alt="cat" />
+    <section>
+      <h1>ANIMALS </h1>
+      <h2>full of personality</h2>
+      <p>
+        At pet shops, cats can be bathed and groomed by professionals who know how to deal with the more reserved
+        behavior of these animals. It is also possible to find veterinary consultations, where cats are vaccinated,
+        examined and treated with care and attention.
+      </p>
+    </section>
+  </main>
+
+  <main>
+    <img class="soon-we-care" src="./img/bear.jpg" alt="bear" />
+    <section>
+      <h1>THE BEAR IS</h1>
+      <h2>a mammal</h2>
+      <p>
+        large bear that belongs to the Ursidae family. There are several species of bears spread throughout the world, such as the brown bear, the polar bear, the American black bear and the panda bear. They are found in different environments, from forests and mountains to the icy regions of the Arctic.
+      </p>
+    </section>
+  </main>
+
+  <main>
+    <img class="soon-we-care" src="./img/seal.jpg" alt="bear" />
+    <section>
+      <h1>THE SEAL IS A</h1>
+      <h2>mammal marine</h2>
+      <p>
+        that lives mainly in cold regions, such as the poles and icy coastal areas. Belonging to the pinniped family, the seal is known for its elongated body, covered by a layer of fat that helps it maintain heat and float in the water.
+      </p>
+    </section>
+  </main>
+
+  <a target="_blank" href="https://wa.me/+5515996822022" class="link-whatsapp">
     <img src="./img/whatsapp.png" alt="link para o whatsapp" />
   </a>
-  <script src="scripts.js"></script>
+
+  <script type="module" src="./scripts.js"></script>
 
   <footer>
-    <p>Contact: (15) 99682-2022 | petshopfeliz@email.com</p>
+    <p>© 2025 Your Company. All rights reserved.</p>
   </footer>
-
 
 </body>
 

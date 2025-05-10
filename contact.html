@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CONTACT</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+  <script type="module" src="authGuard.js"></script>
+</head>
+
+<body class="contact-page">
+  <header>
+    <a href="home.html" class="link-header">HOME</a>
+    <a href="about.html" class="link-header">ABOUT</a>
+    <a href="product.html" class="link-header">PRODUCT</a>
+    <a href="service.html" class="link-header">SERVICE</a>
+    <a href="contact.html" class="link-header">CONTACT</a>
+    <button class="button-header-logout" onclick="logout()">LOG OUT</button>
+  </header>
+
+  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
+    enctype="multipart/form-data">
+    <label>Name<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
+    <label>Phone<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
+    <label>City<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
+    <label>Neighborhood<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
+    <label>Address<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
+    <label>House Number<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
+    <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
+    <button type="submit">Request a Quote</button>
+  </form>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <p>© 2025 Your Company. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

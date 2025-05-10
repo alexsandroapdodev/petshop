@@ -10,67 +10,85 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet" />
+  <script type="module" src="authGuard.js"></script>
 </head>
 
 <body>
   <header>
-    <a href="index.html" class="link-header">HOME</a>
+    <a href="home.html" class="link-header">HOME</a>
     <a href="about.html" class="link-header">ABOUT</a>
     <a href="product.html" class="link-header">PRODUCT</a>
     <a href="service.html" class="link-header">SERVICE</a>
-    <a href="#contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
-    <button class="button-header"><a href="./login.html">LOG IN</button></a>
+    <a href="contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header-logout" onclick="logout()">LOG OUT</button>
   </header>
-  <form id="contact" class="formulario-fale-conosco" action="https://formcarry.com/s/yrwqlbEbwsJ" method="POST"
-  enctype="multipart/form-data">
-  <span class="fechar-contato" onclick="esconderForm()">×</span>
-  <label>Name:<input type="text" name="Nome" placeholder="Enter your Name:" required autofocus /></label>
-  <label>Phone:<input type="tel" name="Telefone" placeholder="Enter your Phone Number:" /></label>
-  <label>City:<input type="text" name="Cidade" placeholder="Enter your City:" /></label>
-  <label>Neighborhood:<input type="text" name="Bairro" placeholder="Enter your Neighborhood:" /></label>
-  <label>Address:<input type="text" name="Endereço" placeholder="Enter your Address:" /></label>
-  <label>House Number:<input type="number" name="Número da casa" placeholder="Enter your House Number:" /></label>
-  <textarea name="Mensagem" placeholder="Enter your Message Here..."></textarea>
-  <button type="submit">Request a Quote</button>
-</form>
 
   <main>
-<img src="./img/racao.jpg" alt="Ração para cães" class="logo-image" />
+    <img src="./img/dried.jpg" alt="dried" class="soon-we-care" />
     <section class="sectionproduct">
-    <h1>OUR PRODUCTS</h1>
-    <p>
-      Here you will find everything for your pet: food, toys, accessories and much more with guaranteed quality!
-</p>
-        <h3>Premium feed</h3>
-        <p>Complete nutrition for all ages.</p>
-        <span>R$ 89.90</span>
-      </section>
-    </main>
-    <main>
-      <img src="./img/brinquedo.jpg" alt="Brinquedo para pets" class="logo-image"  />
-      <section class="sectionproduct" >
-        <h3>Teether Toy</h3>
-        <p>Ideal for fun and oral health.</p>
-        <span>R$ 29.90</span>
-      </section>
-    </main>
-      <main>
-        <img src="./img/caminha.jpg" alt="Caminha para pets" class="logo-image" />
-      <section class="sectionproduct" >
-        <h3>Comfortable Bed</h3>
-        <p>
-          Guaranteed comfort for your pet to rest.</p>
-        <span>R$ 149.90</span>
+      <h1>Fruits and Nuts</h1>
+      <p>
+        Dried fruits and nuts, Plastic bag, Package 150g.
+      </p>
+      <h3>Brazil Frutt</h3>
+      <p>Contains Brazil nuts, dark raisins, roasted and salted Chilean almonds, roasted and salted cashew nuts, and walnuts.</p>
+      <span>R$ 14.99</span>
     </section>
   </main>
-  <a target="_blank" href="https://wa.me/+551599682022" class="link-whatsapp">
+  <main>
+    <img src="./img/shampoo.jpg" alt="shampoo" class="soon-we-care" />
+    <section class="sectionproduct">
+      <h1>Shampoo Bottle</h1>
+      <p>For your pet is essential to ensure healthy skin and beautiful fur.</p>
+      <h3>
+        Developed to complement the diet and provide nutrients</h3>
+      <p>Just like humans, pets may also need a little extra help to stay healthy.</p>
+      <span>R$ 19.99</span>
+    </section>
+  </main>
+  <main>
+    <img src="./img/supplement.jpg" alt="supplement" class="soon-we-care" />
+    <section class="sectionproduct">
+      <h1>Food Supplement</h1>
+      <p>For your pet is essential to ensure healthy skin and beautiful fur.</p>
+      <h3>Strengthening bones and joints</h3>
+      <p>Dogs and cats, for example, have more sensitive skin and a different pH than humans, so it is essential to use products specifically designed for them.</p>
+      <span>R$ 4.99</span>
+    </section>
+  </main>
+  <main>
+    <img src="./img/portion.jpg" alt="portion" class="soon-we-care" />
+    <section class="sectionproduct">
+      <h1>Complete Nutrition</h1>
+      <p>Dog food is the most practical and complete food to guarantee the health and well-being of dogs.</p>
+      <h3>
+        Developed by experts</h3>
+      <p>DA good diet helps to keep the dog's coat shiny, stools firm, improves immunity and provides more energy and vitality. It is important to choose a diet that is appropriate for the dog's size, age and activity level — and always provide plenty of fresh water.</p>
+      <span>R$ 9.99</span>
+    </section>
+  </main>
+  <main>
+    <img src="./img/aquarium.png" alt="aquarium" class="soon-we-care" />
+    <section class="sectionproduct">
+      <h1>Having an aquarium</h1>
+      <p>Than just raising fish 
+        is bringing a piece of nature into your home.</p>
+      <h3>With your relaxing look</h3>
+      <p>The aquarium helps to decorate environments, reduce stress and awaken interest in caring for marine life. In addition, it is important to keep the water clean and balanced, and to provide a specific diet for each species.</p>
+      <span>R$ 49.99</span>
+    </section>
+  </main>
+
+  <a target="_blank" href="https://wa.me/+5515996822022" class="link-whatsapp">
     <img src="./img/whatsapp.png" alt="link para o whatsapp" />
   </a>
-  <script src="scripts.js"></script>
+
+  <script type="module" src="./scripts.js"></script>
 
   <footer>
-    <p>Contact: (15) 99682-2022 | petshopfeliz@email.com</p>
+    <p>© 2025 Your Company. All rights reserved.</p>
   </footer>
+
 </body>
 
 </html>

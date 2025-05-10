@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOME</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+  <script type="module" src="authGuard.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="home.html" class="link-header">HOME</a>
+    <a href="about.html" class="link-header">ABOUT</a>
+    <a href="product.html" class="link-header">PRODUCT</a>
+    <a href="service.html" class="link-header">SERVICE</a>
+    <a href="contact.html" class="link-header" onclick="mostrarForm()">CONTACT</a>
+    <button class="button-header-logout" onclick="logout()">LOG OUT</button>
+  </header>
+
+  <main>
+    <img src="./img/soon.png" alt="we-care-soon" class="soon-we-care" />
+    <section>
+      <h1>WE CARE</h1>
+      <h2>About Your Pet</h2>
+      <p>
+        Pets, such as dogs, cats, birds and even small rodents, are part of the lives of millions of people around the
+        world. Much more than just companion animals, they are considered members of the family. In addition to offering
+        unconditional love, pets also help with the physical and emotional health of their owners.
+      </p>
+      <a href="#explore"><button class="button-main">Explore</button></a>
+    </section>
+  </main>
+
+  <div class="video">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/fOCjhBrnKgM" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/n0DPjDAn8es" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/wUpO8XJDp3c" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/PJGeWoZrYGc" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/sOgMwU8aBzM" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/HramisXvVlA" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/2ilMVinWhdw" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/j9fTwGHPZPM" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/Y_yy8ACm5VA" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <div id="explore" class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/Bx-u1O0EBiU?si=ukz03QNEnJzVmnp2" title="YouTube video player"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <a target="_blank" href="https://wa.me/+5515996822022" class="link-whatsapp">
+    <img src="./img/whatsapp.png" alt="link of whatsapp" />
+  </a>
+
+  <script type="module" src="./scripts.js"></script>
+
+  <footer>
+    <p>© 2025 Your Company. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
