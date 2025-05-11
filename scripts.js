@@ -2,7 +2,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 
 const supabaseUrl = 'https://dtawpzvucvwcxbnwioat.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR0YXdwenZ1Y3Z3Y3hibndpb2F0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NTQ4MzgsImV4cCI6MjA2MjAzMDgzOH0.5BT6FbFJWZl9DyWbpGzCb-5-fx8ZJ1sWRjaavT4X658'; // Use a chave pública (anon)
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR0YXdwenZ1Y3Z3Y3hibndpb2F0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NTQ4MzgsImV4cCI6MjA2MjAzMDgzOH0.5BT6FbFJWZl9DyWbpGzCb-5-fx8ZJ1sWRjaavT4X658'; 
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
@@ -93,7 +93,7 @@ if (forgotPasswordLink) {
     if (!email) return;
 
     const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: '/reset-password.html' // URL para onde o usuário será redirecionado
+      redirectTo: '/reset-password.html' 
     });
 
     if (error) {
