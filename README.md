@@ -12,12 +12,12 @@ Funcionalidades Principais:
 - Controle de estoque de produtos e serviços disponíveis;
 - Histórico de atendimentos e notificações para os usuários;
 - Interface amigável e intuitiva, com navegação fácil e recursos acessíveis.
-- 
+  
 Tecnologias Utilizadas:
 - Frontend desenvolvido com tecnologias web modernas;
 - Backend integrado a banco de dados para armazenamento seguro das informações;
 - Design responsivo para uso em dispositivos móveis e desktop.
-- 
+  
 Diferenciais:
 O sistema se destaca pela simplicidade de uso e pela eficiência no gerenciamento das atividades cotidianas de um petshop. Além disso, foi desenvolvido com foco na experiência do usuário, garantindo uma navegação clara e rápida.
 
