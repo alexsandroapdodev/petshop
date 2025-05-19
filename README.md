@@ -31,7 +31,7 @@ A ideia surgiu da necessidade observada em pequenos petshops, que muitas vezes l
 
 
 Veja aqui:
-https://shimmering-flan-ebf0af.netlify.app | https://alexsandro-apdo.github.io/petshop
+https://shimmering-flan-ebf0af.netlify.app | https://alexsandroapdodev.github.io/petshop
 
 
 
