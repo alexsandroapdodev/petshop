@@ -1,6 +1,6 @@
 Gestão para petshop
 
-É uma aplicação web simples para petshop. Com produtos, serviços, para cães, gatos e outros pets, incluindo rações, brinquedos, acessórios, banho e tosa. Desenvolvido na minha formação Dev Club 
+É uma aplicação web simples para petshop. Com produtos, serviços, para cães, gatos e outros pets, incluindo rações, brinquedos, acessórios, banho e tosa. Desenvolvido na minha formação Dev Club Tech.
 
 
 Veja aqui:
