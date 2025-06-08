@@ -4,7 +4,7 @@ Gestão para petshop
 
 
 Veja aqui:
-https://shimmering-flan-ebf0af.netlify.app | https://alexsandroapdodev.github.io/petshop
+https://alexsandroapdodev.github.io/petshop
 
 
 
